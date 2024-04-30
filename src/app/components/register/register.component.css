@@ -1,0 +1,29 @@
+.register-form {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 100vh; /* Adjust the height as needed */
+}
+
+.register-card {
+    text-align: center; /* Center-align the card content */
+}
+
+.field {
+    margin-bottom: 1rem; /* Add some spacing between fields */
+}
+
+.mt-2 {
+    margin-top: 2rem; /* Adjust the top margin for the "Not a member?" link */
+}
+
+/* Apply specific styling for labels to keep them aligned to the left */
+.field label {
+    display: block; /* Ensure labels are on separate lines */
+    text-align: left; /* Align labels to the left */
+}
+
+.p-error {
+    text-align: left; /* Align the text to the left */
+}
+
